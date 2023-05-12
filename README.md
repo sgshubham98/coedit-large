@@ -6,6 +6,7 @@ datasets:
 - GEM/wiki_auto_asset_turk
 - discofuse
 - zaemyung/IteraTeR_plus
+- jfleg
 language:
 - en
 metrics:
