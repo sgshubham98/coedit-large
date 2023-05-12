@@ -17,8 +17,8 @@ metrics:
 
 This model was obtained by fine-tuning the corresponding google/flan-t5-large model on the CoEdIT dataset. Details of the dataset can be found in our paper and repository.
 
-Paper: CoEdIT: ext Editing by Task-Specific Instruction Tuning
-Authors: Vipul Raheja, Dhruv Kumar, Ryan Koo, Dongyeop Kang
+**Paper:** CoEdIT: ext Editing by Task-Specific Instruction Tuning
+**Authors:** Vipul Raheja, Dhruv Kumar, Ryan Koo, Dongyeop Kang
 
 ## Model Details
 
@@ -60,7 +60,7 @@ We make available the models presented in our paper.
 ## Text Revision Task
 Given an edit instruction and an original text, our model can generate the edited version of the text.<br>
 
-![task_specs](https://huggingface.co/grammarly/coedit-xl/resolve/main/Screen%20Shot%202023-05-12%20at%203.36.37%20PM.png)
+![task_specs](https://huggingface.co/grammarly/coedit-xl/resolve/main/task_examples.png)
 
 ## Usage
 ```python
