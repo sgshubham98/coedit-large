@@ -18,6 +18,7 @@ metrics:
 This model was obtained by fine-tuning the corresponding google/flan-t5-large model on the CoEdIT dataset. Details of the dataset can be found in our paper and repository.
 
 **Paper:** CoEdIT: ext Editing by Task-Specific Instruction Tuning
+
 **Authors:** Vipul Raheja, Dhruv Kumar, Ryan Koo, Dongyeop Kang
 
 ## Model Details
