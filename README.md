@@ -68,15 +68,10 @@ from transformers import AutoTokenizer, T5ForConditionalGeneration
 
 tokenizer = AutoTokenizer.from_pretrained("grammarly/coedit-large")
 model = T5ForConditionalGeneration.from_pretrained("grammarly/coedit-large")
-input_text = 
+input_text = 'Fix grammatical errors in this sentence: New kinds of vehicles will be invented with new technology than today.'
 input_ids = tokenizer(input_text, return_tensors="pt").input_ids
 outputs = model.generate(input_ids, max_length=256)
 edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)[0]
-
-before_input = 'Fix grammatical errors in this sentence: New kinds of vehicles will be invented with new technology than today.'
-model_input = tokenizer(before_input, return_tensors='pt')
-model_outputs = model.generate(**model_input, num_beams=8, max_length=1024)
-after_text = tokenizer.batch_decode(model_outputs, skip_special_tokens=True)[0]
 ```
 
 
