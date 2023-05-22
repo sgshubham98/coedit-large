@@ -16,7 +16,7 @@ metrics:
 ---
 # Model Card for CoEdIT-Large
 
-This model was obtained by fine-tuning the corresponding google/flan-t5-large model on the CoEdIT dataset. Details of the dataset can be found in our paper and repository.
+This model was obtained by fine-tuning the corresponding `google/flan-t5-large` model on the CoEdIT dataset. Details of the dataset can be found in our paper and repository.
 
 **Paper:** CoEdIT: Text Editing by Task-Specific Instruction Tuning
 
@@ -29,10 +29,10 @@ This model was obtained by fine-tuning the corresponding google/flan-t5-large mo
 - **Language(s) (NLP)**: English
 - **Finetuned from model:** google/flan-t5-large
 
-### Model Sources [optional]
+### Model Sources
 
 - **Repository:** https://github.com/vipulraheja/coedit
-- **Paper [optional]:** [More Information Needed]
+- **Paper:** https://arxiv.org/abs/2305.09857
 
 ## How to use
 We make available the models presented in our paper. 
@@ -83,9 +83,14 @@ https://github.com/vipulraheja/coedit
 ## Citation
 
 **BibTeX:**
-
-[More Information Needed]
+@article{raheja2023coedit,
+      title={CoEdIT: Text Editing by Task-Specific Instruction Tuning}, 
+      author={Vipul Raheja and Dhruv Kumar and Ryan Koo and Dongyeop Kang},
+      year={2023},
+      eprint={2305.09857},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
 **APA:**
-
-[More Information Needed]
+Raheja, V., Kumar, D., Koo, R., & Kang, D. (2023). CoEdIT: Text Editing by Task-Specific Instruction Tuning. ArXiv. /abs/2305.09857
