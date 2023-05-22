@@ -83,6 +83,7 @@ https://github.com/vipulraheja/coedit
 ## Citation
 
 **BibTeX:**
+```
 @article{raheja2023coedit,
       title={CoEdIT: Text Editing by Task-Specific Instruction Tuning}, 
       author={Vipul Raheja and Dhruv Kumar and Ryan Koo and Dongyeop Kang},
@@ -91,6 +92,7 @@ https://github.com/vipulraheja/coedit
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
 
 **APA:**
 Raheja, V., Kumar, D., Koo, R., & Kang, D. (2023). CoEdIT: Text Editing by Task-Specific Instruction Tuning. ArXiv. /abs/2305.09857
