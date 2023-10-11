@@ -14,6 +14,27 @@ metrics:
 - sari
 - bleu
 - accuracy
+widget:
+  - text: >-
+      Fix the grammar: When I grow up, I start to understand what he said is
+      quite right.
+    example_title: Fluency
+  - text: >-
+      Make this text coherent: Their flight is weak. They run quickly through
+      the tree canopy.
+    example_title: Coherence
+  - text: >-
+      Rewrite to make this easier to understand: A storm surge is what
+      forecasters consider a hurricane's most treacherous aspect.
+    example_title: Simplification
+  - text: 'Paraphrase this: Do you know where I was born?'
+    example_title: Paraphrase
+  - text: >-
+      Write this more formally: omg i love that song im listening to it right
+      now
+    example_title: Formalize
+  - text: 'Write in a more neutral way: The authors'' exposé on nutrition studies.'
+    example_title: Neutralize
 ---
 # Model Card for CoEdIT-Large
 
